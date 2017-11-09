@@ -1,0 +1,187 @@
+/* HSM styles */
+
+/* GRID */
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex-basis: 100%;
+}
+
+@media screen and (min-width: 800px) {
+  .col {
+    flex: 1;
+  }
+
+  .col-25 {
+    flex: 2.5;
+  }
+
+  .col-75 {
+    flex: 7.5;
+  }
+}
+
+/* TEXT */
+body {
+  font-family: Verdana, sans-serif;
+  color: #0D3B66;
+}
+
+p {
+  font-size: 14px;
+}
+
+a {
+  color: #2364AA;
+}
+
+.txt-ll {
+  color: #2364AA;
+}
+
+.txt-pt {
+  color: #A5F1E7;
+}
+
+.txt-g {
+  color: #EFA00B;
+}
+
+.txt-s {
+  color: #EAC435;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+/* BUTTONS */
+button,
+input[type="submit"],
+input[type="reset"] {
+  padding: 8px;
+  border-radius: 2px;
+  border: 1px solid #999;
+}
+
+.btn-dmb {
+  color: #ffffff;
+  background-color: #0D3B66;
+  border: 1px solid #EAC435;
+ }
+ 
+ .btn-ll {
+  color: #ffffff; 
+  background-color: #2364AA;
+  border: 1px solid #0D3B66;
+ }
+ 
+ .btn-pt {
+  color: #EFA00B; 
+  background-color: #A5F1E7;
+  border: 1px solid #2364AA;
+ }
+ 
+ .btn-g {
+  color: #A5F1E7;
+  background-color: #EFA00B;
+  border: 1px solid #2364AA;
+ }
+ 
+ .btn-s {
+  color: #2364AA; 
+  background-color: #EAC435;
+  border: 1px solid #EFA00B;
+ }
+
+/* NAVIGATION */
+.navbar {
+  text-align: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline;
+}
+
+.navbar ul li:first-child {
+  padding-left: 0;
+}
+
+.navbar ul li:last-child {
+  padding-right: 0;
+}
+
+/* FOOTER */
+footer {
+  text-align: right;
+}
+
+/* FORMS */
+.form-panel {
+  padding: 10px;
+  border-radius: 2px;
+  width: 450px;
+  background-color: #A5F1E7;
+}
+
+.form-grp {
+  margin: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="number"],
+select {
+  height: 20px;
+  border-radius: 1px;
+  border: 1px solid #0D3B66;
+}
+
+/* SIDEBAR */
+.sidebar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  background-color: #A5F1E7;
+  border-radius: 2px;
+}
+
+.sidebar li a {
+  display: block;
+  color: #0D3B66;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.sidebar li a:hover {
+  background-color: #EAC435;
+}
+
+/* TABLES */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, tr, th, td {
+  border: 1px solid #0D3B66;
+}
+
+tr, td, th {
+  padding: 5px;
+}
